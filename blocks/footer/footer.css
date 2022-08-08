@@ -6,18 +6,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 92px;
+    margin: 0 auto;
   }
   
   @media screen and (max-width: 1024px) {
-    . {
-      margin: 0 48px;
+    .footer {
       max-width: 928px;
     }
   }
   
-  @media screen and (max-width: 500px) {
-    . {
+  @media screen and (max-width: 768px) {
+    .footer {
+      max-width: 720px;
       padding-top: 64px;
     }
   }
   
+  @media screen and (max-width: 320px) {
+    .footer {
+      max-width: 186px;
+    }
+  }

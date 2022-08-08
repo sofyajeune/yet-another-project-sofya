@@ -1,23 +1,23 @@
 .place__image {
-    max-width: 35.94vw;
-    margin-right: 32px;
+    max-width: 460px;
+    flex-basis: 50%;
   }
   
   @media screen and (max-width: 1024px) {
     .place__image {
-      max-width: 42.77vw;
+      max-width: 440px;
     }
   }
   
   @media screen and (max-width: 768px) {
     .place__image {
-      max-width: 338px;
+      max-width: 340px;
     }
   }
   
   @media screen and (max-width: 320px) {
     .place__image {
-      max-width: 318px;
+      max-width: 320px;
       margin-bottom: 32px;
     }
   }

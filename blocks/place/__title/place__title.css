@@ -1,36 +1,36 @@
 .place__title {
-    width: 460px;
-    font-family: "Inter";
+    max-width: 460px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 5.63vw;
+    font-size: 72px;
     line-height: 106%;
     /* or 106% */
     color: #ffffff;
-    margin-bottom: 48px;
-    margin-top: 0;
-    margin-right: 32px;
+    margin: 0;
+    padding-bottom: 48px;
+    flex-basis: 50%;
   }
   
   @media screen and (max-width: 1024px) {
     .place__title {
-      font-size: 7.03vw;
-      max-width: 440px;
+       max-width: 440px;
     }
   }
   
   @media screen and (max-width: 768px) {
     .place__title {
-      font-size: 5.47vw;
+      font-size: 42px;
       max-width: 340px;
     }
   }
   
   @media screen and (max-width: 320px) {
     .place__title {
-      font-size: 10vw;
+      font-size: 32px;
       min-height: 35px;
-      margin-bottom: 32px;
+      padding-bottom: 32px;
+      margin-left: 16px;
   
     }
   }

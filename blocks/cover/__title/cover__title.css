@@ -1,50 +1,26 @@
 .cover__title {
-  position: relative;
-  /* max-width: 560px;
-  min-height: 152px; */
-  font-family: "Inter";
+  max-width: 560px;
+  min-height: 152px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 5.63vw;
+  font-size: 72px;
   line-height: 106%;
-  /* or 106% */
   text-align: center;
   color: #ffffff;
-  /* padding-top: 245px; */
   z-index: 1;
   text-decoration-line: none;
-  margin: 0 312px;
-  /* конкретное значение  + media*/
-  pointer-events: none;
-  /* не реагировать на события мыши */
+  margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 512px) {
   .cover__title {
-    max-width: 560px;
-    font-size: 7.03vw;
-    line-height: 106%;
-    height: 152px;
-    margin: 33px 16px 0 16px;
+    max-width: 250px;
+    min-height: 70px;
+    font-size: 32px;
   }
-}
+} 
 
-@media screen and (max-width: 768px) {
-  .cover__title {
-    font-size: 9.38vw;
-    margin: 33px 16px 0 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
-    max-width: 230px;
-    font-size: 10vw;
-    line-height: 109%;
-    height: 70px;
-    margin: 33px 16px 0 16px;
-  }
-}
 
 
   

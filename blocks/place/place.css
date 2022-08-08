@@ -4,7 +4,24 @@
     flex-basis: auto;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding-bottom: 80px;
     /* justify-content:flex-start; */
     /*max-width: 984px;*/
+  }
+
+  .place:last-child {
+    padding-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place {
+      padding-bottom: 73px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place {
+      padding-bottom: 50px;
+    }
   }
   
