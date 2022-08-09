@@ -7,12 +7,17 @@
     line-height: 28px;
     color: #FFFFFF;
     padding-left: 18px;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
     transition: ease-in-out 0.3s;
 }
+
+/*.header__lang-link:first-child {
+    text-decoration-line: underline;
+}*/
 
 
 @media screen and (max-width: 320px) {

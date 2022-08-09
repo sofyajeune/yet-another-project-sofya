@@ -12,10 +12,3 @@
     padding-top: 40px;
     padding-bottom: 33px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .intro__text {
-      font-size: 16px;
-      line-height: 163%;
-    }
-  }

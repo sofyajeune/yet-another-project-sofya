@@ -17,11 +17,6 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
-    .lead__subtitle {
-      padding-bottom: 16px;
-    }
-  }
   
   @media screen and (max-width: 320px) {
     .lead__subtitle {
