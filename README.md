@@ -20,4 +20,4 @@
 1. Адаптировать сетку под разрешения менее 320px (возможно, для умных часов) и для больших Декстопов
 2. Добавить эффекты наведения на различные элементы (сделать сайт более адаптивным)
 
-#### Ссылка на GitHub: https://github.com/sofyajeune/russian-travel.git
+#### Ссылка на GitHub: https://sofyajeune.github.io/yet-another-project-sofya/
