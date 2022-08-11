@@ -31,7 +31,9 @@
       min-height: 35px;
       padding-bottom: 32px;
       margin-left: 16px;
-  
+      max-width: 288px;
+      flex-grow: 1;
+      flex-shrink: 0;
     }
   }
   

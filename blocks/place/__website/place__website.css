@@ -20,6 +20,9 @@
       margin-bottom: 32px;
       margin-top: 0;
       margin-left: 16px;
+      flex-grow: 1;
+      flex-shrink: 0;
+  
 
     }
   }
