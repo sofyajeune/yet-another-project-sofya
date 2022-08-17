@@ -2,7 +2,6 @@
     max-width: 456px;
     padding-bottom: 48px;
     margin-top: auto;
-    flex-basis: 50%;
     margin-left: 32px;
   }
   
@@ -12,8 +11,19 @@
       margin-left: 28px;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .place__website {
+      padding-bottom: 0;
+      max-width: 288px;
+      margin-bottom: 32px;
+      margin-top: 0;
+      margin-left: 16px;
+
+    }
+  }
   
-  @media screen and (max-width: 320px) {
+  /*@media screen and (max-width: 320px) {
     .place__website {
       padding-bottom: 0;
       max-width: 288px;
@@ -21,11 +31,9 @@
       margin-top: 0;
       margin-left: 16px;
       /*flex-grow: 1;
-      flex-shrink: 0;*/
-  
-
+      flex-shrink: 0;
     }
-  }
+  }*/
   
   
   

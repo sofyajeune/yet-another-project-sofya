@@ -1,7 +1,17 @@
 
 .place {
-    display: flex;
-    /*flex-basis: auto;*/
+    display: grid;
+    max-width: 984px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(460px));
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    
+    /*display: flex;
+    /*flex-basis: auto;
     align-items: flex-start;
     flex-wrap: wrap;
     padding-bottom: 80px;
@@ -19,9 +29,15 @@
     }
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 650px) {
     .place {
+      display: flex;
       flex-direction: column;
+      flex-direction: column;
+      flex-basis: auto;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      
       
     }
   }
@@ -30,7 +46,6 @@
   @media screen and (max-width: 320px) {
     .place {
       padding-bottom: 50px;
-      flex-direction: column;
       
     }
   }
