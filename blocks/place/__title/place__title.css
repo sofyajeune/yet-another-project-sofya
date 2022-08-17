@@ -23,6 +23,12 @@
       max-width: 340px;
     }
   }
+  @media screen and (max-width: 650px) {
+    .place__title {
+      padding-bottom: 32px;
+    }
+  }
+  
   
   @media screen and (max-width: 362px) {
     .place__title {

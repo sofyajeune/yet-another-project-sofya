@@ -1,6 +1,5 @@
 .place__image {
     max-width: 460px;
-    flex-basis: 50%;
     object-fit: contain;
   }
   
@@ -19,6 +18,7 @@
   @media screen and (max-width: 650px) {
     .place__image {
       margin-bottom: 32px;
+      /*flex-basis: 50%;*/
     }
   }
   
